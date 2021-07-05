@@ -4,6 +4,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 .orangered{
 color: orangered;
 }
@@ -11,8 +14,9 @@ color: orangered;
     font-size: 20px;
     color: darkred;
 }
-section{
+.service{
     display: flex;
+    margin-bottom: 100px;
 }
 .half{
     font-size:90%;
@@ -28,5 +32,30 @@ section{
     color:white;
     border-radius: 5px;
     font-weight: 500;
-
+}
+.experience{
+    background-image: url(picture/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: left 230px;
+}
+.item{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    box-shadow: 10px 20px 40px gray;
+}
+#baby{
+    border-left:7px solid;
+    border-image: linear-gradient(blue , cyan);
+    border-image-slice: 1;
+}
+#stack{
+    border-left:7px solid;
+    border-image: linear-gradient(brown , cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-decoration: darkslategray;
+    text-align: center;
 }
